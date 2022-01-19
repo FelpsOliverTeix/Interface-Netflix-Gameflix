@@ -1,0 +1,126 @@
+:root{
+    --azul: #0961e5;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta) ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .Logo{
+    margin-left: 5px;
+    color: var(--azul) ;
+    font-family: 'Arial-black' ;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav  a:hover{
+    color: #fff;
+}
+
+
+/*filme principal */
+.jogo-principal{
+    font-size: 16px;
+    background: linear-gradient( rgba(0,0,0,.50),rgba(0,0,0.50)200%), url('/img/capa-street.jpg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all ;
+
+    
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.jogo-principal .container{
+    width: 60%;
+}
+
+.box-jogo{
+    height: 300px;
+    width: 300px;
+    display: block;
+}
+
+.carousel-jogo{
+    margin-top: 5px;
+}
+
+.novidades{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+
+.item{
+    cursor: pointer;
+}     
+
