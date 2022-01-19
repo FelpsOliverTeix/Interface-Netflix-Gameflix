@@ -1,2 +1,4 @@
 # Interface-Neflix-Gameflix
-Pagina de jogos seguindo  a interface do Netflix 
+Olá, seja bem vindo.
+Essa pagina foi criada baseada no interface do Netflix com as aulas do BootCamp Inter FrontEnd da DigitalInovationOne.
+Apos aprender a criar a interface original do Netflix, fiz essa com um pouco do que gosto.
